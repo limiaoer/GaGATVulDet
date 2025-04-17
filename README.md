@@ -1,21 +1,6 @@
 # GPSCVulDetector
 
-This repo is a python implementation of combining graph neural network with expert knowledge for smart contract vulnerability detection. 
-
-## Citation
-Please use this citation in your paper if you refer to our [paper](https://ieeexplore.ieee.org/abstract/document/9477066/) or code.
-```
-@article{liu2023combining,
-  title={Combining Graph Neural Networks With Expert Knowledge for Smart Contract Vulnerability Detection},
-  author={Liu, Zhenguang and Qian, Peng and Wang, Xiaoyang and Zhuang, Yuan and Qiu, Lin and Wang, Xun},
-  journal={IEEE Transactions on Knowledge \& Data Engineering},
-  volume={35},
-  number={02},
-  pages={1296--1310},
-  year={2023},
-  publisher={IEEE Computer Society}
-}
-``` 
+This repo is a python implementation of a graph attention network vulnerability detection method that generalizes global features of smart contracts.
 
 ## Requirements
 
@@ -34,9 +19,9 @@ pip install scikit-learn==0.20.2
 ```
 
 
-## Graph extractor & Pattern extractor
-1. **Graph:** The contract graph and its feature are extracted by the automatic graph extractor in the `graph_extractor_example` directory (or refer to our [previous methods](https://github.com/Messi-Q/GNNSCVulDetector)).
-2. **Pattern:** The expert pattern and its feature are extracted by the automatic pattern extractor in the `pattern_extractor_example` directory.  
+## Graph extractorr
+The contract graph and its feature are extracted by the automatic graph extractor in the `graph_extractor_example` directory 
+ 
 
 
 Notably, you can also use the features extracted in [AMEVulDetector](https://github.com/Messi-Q/AMEVulDetector).
