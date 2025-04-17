@@ -21,7 +21,7 @@ pip install scikit-learn==0.20.2
 
 
 ## Graph generator
-The contract graph and its feature are extracted by the automatic graph extractor in the `contract_graph_generator` directory 
+The contract graph and its feature are extracted by the automatic graph generator in the `contract_graph_generator` directory 
 
 
 ## Running Project
