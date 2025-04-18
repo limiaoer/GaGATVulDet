@@ -1,6 +1,6 @@
-# GeGATVulDet
+# GaGATVulDet
 
-This repository is a python implementation of a graph attention network vulnerability detection method that generalizes global features of smart contracts.
+This repository is a python implementation of a graph attention network vulnerability detection method that augments global features of smart contracts.
 
 ## Requirements
 
