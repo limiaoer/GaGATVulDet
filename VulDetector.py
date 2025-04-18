@@ -1,6 +1,6 @@
 import numpy as np
 from parser import parameter_parser
-from models.GeGAT import GeGATModel
+from models.GaGAT import GaGATModel
 from models.GCN import GNNModel
 from preprocessing import get_graph_feature
 
@@ -23,8 +23,8 @@ def main():
         y_test.append(int(graph_experts_test[i]))
     y_test = np.array(y_test)
 
-    if args.model == 'GeGAT':
-        model = GeGATModel(graph_train, graph_test,  y_train, y_test)
+    if args.model == 'GaGAT':
+        model = GaGATModel(graph_train, graph_test,  y_train, y_test)
     elif args.model == 'GCN':
         model = GNNModel(graph_train, graph_test,  y_train, y_test)
 

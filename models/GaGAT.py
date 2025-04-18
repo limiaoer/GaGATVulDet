@@ -13,7 +13,7 @@ args = parameter_parser()
 
 
 
-class GeGATModel:
+class GaGATModel:
 
     def __init__(self, graph_train, graph_test, y_train, y_test,
                  batch_size=args.batch_size, lr=args.lr, epochs=args.epochs,
@@ -416,7 +416,7 @@ class GraphAttentionLayer(nn.Module):
 #     y_test = np.random.randint(0, 2, 20)
 #
 #     # 创建模型
-#     model = GeGATModel(
+#     model = GaGATModel(
 #         graph_train=graph_train,
 #         graph_test=graph_test,
 #         y_train=y_train,
